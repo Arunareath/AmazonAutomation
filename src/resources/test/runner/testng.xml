@@ -7,21 +7,21 @@
 		<listener class-name="com.qa.listners.TestAllureListener" />
 	</listeners>
 
-<!-- 	<test name="ChromeTest" parallel="classes">
+	<test name="ChromeTest" parallel="classes">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.Test.HomePageTest" />
 			<class name="com.qa.Test.LoginPageTest" />
 		</classes>
-	</test> Test -->
+	</test> Test
 
-	<test name="FirefoxTest" parallel="classes">
+	<!-- <test name="FirefoxTest" parallel="classes">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<!-- <class name="com.qa.Test.HomePageTest" /> -->
+			<class name="com.qa.Test.HomePageTest" />
 			<class name="com.qa.Test.LoginPageTest" />
 		</classes>
-	</test>
+	</test> -->
 	
 
 </suite>
